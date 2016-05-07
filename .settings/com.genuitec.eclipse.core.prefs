@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/jsp/login.jsp,WebRoot/jsp/menus.jsp,WebRoot/js,WebRoot/jsp/menus_info.jsp,WebRoot/jsp/user_info.jsp
+validator.Unchecked=

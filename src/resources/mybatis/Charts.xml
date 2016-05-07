@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.flf.mapper.ChartsMapper">
+	<resultMap type="Charts" id="chartsResultMap">
+		<id column="charts_id" property="chartsId"/>
+		<result column="charts1" property="charts1"/>
+		<result column="charts2" property="charts2"/>
+		<result column="charts3" property="charts3"/>
+	</resultMap>
+	
+	<select id="listPageInfo" parameterType="Page" resultMap="chartsResultMap">select * from tb_charts</select>
+</mapper>
